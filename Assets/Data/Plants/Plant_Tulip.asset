@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5809213d5bb6984cb7ceb1dc569d9b3, type: 3}
+  m_Name: Plant_Tulip
+  m_EditorClassIdentifier: Assembly-CSharp::PlantData
+  plantId: 2
+  plantName: Tulip
+  seedBagIcon: {fileID: 2161284124966242572, guid: fb6ce9cb0bb702745bcff281ce7c726a, type: 3}
+  growthStages:
+  - {fileID: 1646375367856145251, guid: fb6ce9cb0bb702745bcff281ce7c726a, type: 3}
+  - {fileID: -6250598388044826599, guid: fb6ce9cb0bb702745bcff281ce7c726a, type: 3}
+  - {fileID: -6470460504253458178, guid: fb6ce9cb0bb702745bcff281ce7c726a, type: 3}
+  - {fileID: -6045798420381719288, guid: fb6ce9cb0bb702745bcff281ce7c726a, type: 3}
+  harvestItemIcon: {fileID: 3486365374980857469, guid: fb6ce9cb0bb702745bcff281ce7c726a, type: 3}
+  growTimeInSeconds: 480
+  seedPrice: 45
+  sellPrice: 27
+  harvestYield: 3
